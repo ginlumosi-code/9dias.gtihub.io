@@ -1,0 +1,85 @@
+body {
+  background-image: url("../static/mandala.jpg");
+  background-position: top center;
+}
+
+nav {
+  background-image: linear-gradient(to right, #8860D0, #84CEEB, #5680E9);
+  opacity: 0.9;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex; flex-flow: row nowrap;
+}
+
+li {
+  margin-left: 0.5em;
+}
+
+.container {
+  margin-top: 4em;
+}
+
+svg, #myphoto {
+  float: left;
+  margin-right: 1.5em;
+}
+
+@media (max-width: 768px) {
+  svg, #myphoto
+  {
+    float: none;
+    display: block;
+    margin: auto;
+  }
+}
+
+#myphoto {
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, table {
+  margin-top: 0.3em;
+  color: #8860D0;
+  text-align: center;
+  font-family: 'Bilbo Swash Caps', cursive;
+}
+
+
+.info {
+  color: #8860D0;
+}
+
+.timetable {
+  text-align: left;
+  font-family: helvetica;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+}
+
+.border-text {
+  margin-top: 2em;
+  padding: 1.5em;
+  border: solid 0.05em #8860D0;
+  border-radius: 0.4em;
+}
+
+footer, footer > a {
+  color: grey;
+  text-align: center;
+  font-size: small;
+}
